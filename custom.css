@@ -1,0 +1,34 @@
+/* Custom CSS for Credit Card Fraud Detection */
+
+body {
+  background-color: #10b346;
+}
+
+.container {
+  max-width: 600px;
+  margin-top: 50px;
+}
+
+#fraudResult {
+  margin-top: 20px;
+}
+
+/* Style for form elements */
+.form-label {
+  font-weight: bold;
+}
+
+/* Style for fraud detection result */
+#fraudMessage {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Style for fraud message colors */
+#fraudMessage.green {
+  color: green;
+}
+
+#fraudMessage.red {
+  color: red;
+}
